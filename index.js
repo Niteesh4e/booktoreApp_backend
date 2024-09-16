@@ -17,6 +17,7 @@ const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
+//added universe
 try {
     mongoose.connect(URI, {
         useNewUrlParser: true,
